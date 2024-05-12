@@ -1,4 +1,4 @@
- function getComputerChoice() {
+ function  getComputerChoice() {
     const randomNumber = Math.floor(Math.random()*3);
     switch (randomNumber){
         case 0:
@@ -59,6 +59,5 @@
     
     function getComputerChoice() {
     }
-    
     playGame();
    
