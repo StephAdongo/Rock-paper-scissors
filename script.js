@@ -1,4 +1,4 @@
- function getComputerChoice() {
+ function  getComputerChoice() {
     const randomNumber = Math.floor(Math.random()*3);
     switch (randomNumber){
         case 0:
@@ -65,6 +65,7 @@
       document.getElementById("results").textContent = "";
     }
     
+<<<<<<< HEAD
     
 
     const rockButton= document.getElementById("rockButton");
@@ -75,4 +76,9 @@
     paper.addEventListener("click", () => playRound("paper"));
     scissors.addEventListener("click", () => playRound("scissors"));
 
+=======
+    function getComputerChoice() {
+    }
+    playGame();
+>>>>>>> 18f8d68439700a508eb37010f3289a326ed2ae2c
    
