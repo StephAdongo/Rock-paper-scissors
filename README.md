@@ -2,7 +2,7 @@
  This is a rock-paper-scissors game that can be played in the console.Upon clicking the buttton the user is prompted to enter 5 options of either rock,paper or scissors.This is then matched agaisnt the computers choice and the results is declared.The list of results include :
 - You win
 - You lose
-- Tie
+- It's a Tie
 
  for both the computer and the user`s choices.
 
